@@ -6,24 +6,30 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>
 
-        <?php
-            $nome ="Romário";
-            $sobrenome = "Miranda";
-            const PAIS = "Brasil";
+    //operadores condicionais  
+    // && = AND 
+    // || = OR
+    // ! = NOT    
+    // && = AND - todas as condições precisam ser verdadeiras para retornar true
+    // || = OR - apenas uma das condições precisa ser verdadeira para retornar true
+    // ! = NOT - inverte o valor lógico, ou seja, se for true retorna false e vice-versa
+    
+    //operadores de comparação
+    // == igual a
+    // != diferente de
+    // > maior que
+    // < menor que
+    // >= maior ou igual a
+    // <= menor ou igual a  
 
-            echo "<br>Meu nome é: $nome $sobrenome";
-            echo "<br>Eu sou do: " . PAIS;
 
-            date_default_timezone_set('America/Sao_Paulo');
-            echo "<br>Hojé é dia " . date("d/m/Y");
-            echo " e a hora é " . date("H:i:s");
-
-            
-
-        ?>
-
-    </h1>
+    <?php //retorna verdadeiro se todas as condições forem verdadeiras
+        if (5 > 3 && 10 > 7 && 3 == 3) {
+            echo "true";
+        } else {
+            echo "false";
+        }
+    ?>
 </body>
 </html>

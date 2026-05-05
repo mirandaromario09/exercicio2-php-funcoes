@@ -1,13 +1,14 @@
-# Estudo de PHP - Primeiros passos
+# Estudo de PHP - Operadores condicionais e de comparação
 
-Projeto pra aprender o básico de PHP: variáveis, constantes e funções de data.
+Projeto pra aprender os operadores lógicos e de comparação no PHP.
 
 ## Conceitos estudados
 
-- **Variáveis** — declarar e exibir valores com `$nome` e `$sobrenome`
-- **Constantes** — usar `const` e `define()` pra valores fixos como país
-- **Concatenação** — juntar texto usando `.` ou interpolação com `""`
-- **Funções de data** — `date_default_timezone_set()` e `date()` pro fuso horário brasileiro
+- **Operadores condicionais** — `&&` (AND), `||` (OR), `!` (NOT)
+- **AND (`&&`)** — todas as condições precisam ser verdadeiras pra retornar `true`
+- **OR (`||`)** — apenas uma condição precisa ser verdadeira pra retornar `true`
+- **NOT (`!`)** — inverte o valor lógico (`true` vira `false` e vice-versa)
+- **Operadores de comparação** — `==`, `!=`, `>`, `<`, `>=`, `<=`
 
 ## Arquivos
 
