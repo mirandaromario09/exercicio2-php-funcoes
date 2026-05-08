@@ -14,4 +14,4 @@ Exercício pra praticar criação de funções em PHP e estruturas condicionais 
 - `index.php` — página principal com os exemplos
 
 ---
-[Ver online](https://mirandaromario09.github.io/2-)
+[Ver online](https://mirandaromario09.github.io/exercicio2-php-funcoes)
